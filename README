@@ -1,0 +1,36 @@
+TAREA 1 CC4102 Diseño y Análisis de Algoritmos.
+Búsqueda en texto.
+
+Por
+	- Nicolás Salas V.
+	- Daniel Rojas C.
+
+El extraible contiene:
+	- Sources del Proyecto
+	- El informe
+	- Resultados usados en la elaboración del informe
+
+Este trabajo está hecho en el lenguaje C y se recomienda su ejecución
+en un ambiente linux, o Mac en su defecto. Para la compilación se 
+requiere sólo un gcc o alguna variante y la librería de matemáticas.
+El uso de make no es obligatorio, pero el trabajo se hace más simple
+con el uso de este, ya que los sources se pueden compilar sólo con
+
+$ make
+
+Para ejecutar el proyecto simplemente se hace
+
+$ ./tarea1
+
+Note que por defecto, los textos deben estar en la carpeta ../texts y
+usualmente se llaman dna y english. Dicha carpeta corresponde a 1 nivel
+anterior de donde se ubican los sources, es decir, la carpeta raíz de este
+extraible. También es posible ubicarlos en otra parte si se modifica el archivo
+experimentos.c, que contiene las rutas a estos archivos.
+
+En el laboratorio del segundo piso del DCC (edificio poniente) el programa demora
+unos 10 minutos en iterar sobre todos los experimentos posibles, aunque este
+tiempo es variable.
+
+Para graficar se ha usado la herramienta (disponible en los mismos computadores)
+gnuplot.
